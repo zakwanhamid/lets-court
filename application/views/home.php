@@ -16,8 +16,8 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background:#345c72">
     <div class="container-xxl">
-      <a href="#intro" class="navbar-brand">
-        <img src="/assets/logo.png" width="210" height="50" alt="logo">
+      <a href="<?php echo base_url(); ?>" class="navbar-brand">
+        <img src="<?php echo base_url(); ?>/assets/logo.png" width="210" height="50" alt="logo">
       </a>
       <!-- toggle buttom for mobile nav -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse justify-content-end align-center fw-bold" id="main-nav">
         <ul class="navbar-nav">
           <li class="nav-item ">
-            <a class="nav-link" href="index.html#intro">Homes</a>
+            <a class="nav-link" href="index.html#intro">Home</a>
           </li>
           <li class="nav-item ms-lg-4">
             <a class="nav-link" href="index.html#aboutUs">About Us</a>
@@ -62,7 +62,7 @@
           <a href="login.html" class="btn btn-secondary btn-lg">Book Now</a>
         </div>
         <div class="col-md-5 text-center d-md-block">
-          <img class="img-fluid" src="/assets/firstpg.png" alt="courts">
+          <img class="img-fluid" src="<?php echo base_url(); ?>/assets/firstpg.png" alt="courts">
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@
       <div class="row my-5 align-items-center justify-content-center g-3">
         <div class="col-8 col-lg-4 col-xl-3">
           <div class="card border-0 shadow">
-            <img src="/assets/courts.jpg" class="card-img-top" alt="tennis">
+            <img src="<?php echo base_url(); ?>/assets/courts.jpg" class="card-img-top" alt="tennis">
             <div class="card-body text-center py-4">
               <h4 class="card-title">Tennis</h4>
               <p class="lead card-subtitle">Outdoor only</p>
@@ -93,7 +93,7 @@
         <div class="col-8 col-lg-4 col-xl-3">
           <div class="card border-0 shadow">
             <div class="card-header text-center text-primary">Most Popular</div>
-            <img src="/assets/badminton.jpg" class="card-img-top" alt="badminton">
+            <img src="<?php echo base_url(); ?>/assets/badminton.jpg" class="card-img-top" alt="badminton">
             <div class="card-body text-center py-4">
               <h4 class="card-title">Badminton</h4>
               <p class="lead card-subtitle">Indoor only</p>
@@ -106,7 +106,7 @@
 
         <div class="col-8 col-lg-4 col-xl-3 ">
           <div class="card border-0 shadow">
-            <img src="/assets/volleyball.jpg" class="card-img-top" alt="volleyball">
+            <img src="<?php echo base_url(); ?>/assets/volleyball.jpg" class="card-img-top" alt="volleyball">
             <div class="card-body text-center py-4">
               <h4 class="card-title">Volleyball</h4>
               <p class="lead card-subtitle">Indoor only</p>
@@ -119,7 +119,7 @@
 
         <div class="col-8 col-lg-4 col-xl-3">
           <div class="card border-0 shadow">
-            <img src="/assets/futsal.jpg" class="card-img-top" alt="volleyball">
+            <img src="<?php echo base_url(); ?>/assets/futsal.jpg" class="card-img-top" alt="volleyball">
             <div class="card-body text-center py-4">
               <h4 class="card-title">Futsal</h4>
               <p class="lead card-subtitle">Indoor only</p>
@@ -140,7 +140,7 @@
       <div class="row my-5 align-items-center text-center">
         <div class="card text-center shadow col-lg-10 align-items-center justify-content-center">
           <h2>About Us</h2>
-          <img src="/assets/azmanHashim.jpg" class="card-img-top" alt="volleyball">
+          <img src="<?php echo base_url(); ?>/assets/azmanHashim.jpg" class="card-img-top" alt="volleyball">
           <p class="lead text-muted">Tan Sri Azman Hashim, the founder and chairman of Ambank Group, 
             donated RM10 million for the construction of the Azman Hashim Sports Arena which is located on the USM main campus here. 
             The multi-purpose complex known as Azman Hashim Sports Arena has an area of 5,098 square meters. 
