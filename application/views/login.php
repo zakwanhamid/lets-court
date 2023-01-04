@@ -29,8 +29,6 @@
                 <button type="button" class="btn1 mb-3 shadow">Login</button>
               </div>
             </div>
-
-            <a href="#">Forgot password ?</a>
             <p>Don't have an account <a href="<?php echo base_url();?>/Register/index">Register Here</a></p>
 
           </form>
