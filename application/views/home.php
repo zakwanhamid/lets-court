@@ -1,53 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Let's Court</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
-  rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
-  crossorigin="anonymous">
-
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background:#345c72">
-    <div class="container-xxl">
-      <a href="<?php echo base_url(); ?>" class="navbar-brand">
-        <img src="<?php echo base_url(); ?>/assets/logo.png" width="210" height="50" alt="logo">
-      </a>
-      <!-- toggle buttom for mobile nav -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#main-nav" aria controls="main-nav" aria-expanded="false"
-      aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- navbar links -->
-      <div class="collapse navbar-collapse justify-content-end align-center fw-bold" id="main-nav">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html#intro">Home</a>
-          </li>
-          <li class="nav-item ms-lg-4">
-            <a class="nav-link" href="index.html#aboutUs">About Us</a>
-          </li>
-          <li class="nav-item ms-lg-4">
-            <a class="nav-link" href="index.html#courts">Courts</a>
-          </li>
-          <li class="nav-item ms-lg-4">
-            <a class="nav-link" href="login.html">Log In</a>
-          </li>
-          <li class="nav-item ms-lg-4">
-            <a class="nav-link" href="register.html">Register</a>   
-          </li>
-        </ul>
-      </div>
-    </div> 
-  </nav>
 
   <!-- main image & intro page -->
   <section  id="intro">
@@ -63,6 +13,23 @@
         </div>
         <div class="col-md-5 text-center d-md-block">
           <img class="img-fluid" src="<?php echo base_url(); ?>/assets/firstpg.png" alt="courts">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="aboutUs">
+    <div class="container-lg p-5">
+      <div class="row my-5 align-items-center text-center">
+        <div class="card text-center shadow col-lg-10 align-items-center justify-content-center">
+          <h2>About Us</h2>
+          <img src="<?php echo base_url(); ?>/assets/azmanHashim.jpg" class="card-img-top" alt="volleyball">
+          <p class="lead text-muted">Tan Sri Azman Hashim, the founder and chairman of Ambank Group, 
+            donated RM10 million for the construction of the Azman Hashim Sports Arena which is located on the USM main campus here. 
+            The multi-purpose complex known as Azman Hashim Sports Arena has an area of 5,098 square meters. 
+            Various facilities in the arena will be built, namely 1 volleyball court, 2 futsal courts and 10 badminton courts. 
+            This is the second indoor Sports Complex after USM had a Badminton Sports Complex built in the 80s.</p>
         </div>
       </div>
     </div>
@@ -135,31 +102,11 @@
     </div>
   </section>
 
-  <section id="aboutUs">
-    <div class="container-lg p-5">
-      <div class="row my-5 align-items-center text-center">
-        <div class="card text-center shadow col-lg-10 align-items-center justify-content-center">
-          <h2>About Us</h2>
-          <img src="<?php echo base_url(); ?>/assets/azmanHashim.jpg" class="card-img-top" alt="volleyball">
-          <p class="lead text-muted">Tan Sri Azman Hashim, the founder and chairman of Ambank Group, 
-            donated RM10 million for the construction of the Azman Hashim Sports Arena which is located on the USM main campus here. 
-            The multi-purpose complex known as Azman Hashim Sports Arena has an area of 5,098 square meters. 
-            Various facilities in the arena will be built, namely 1 volleyball court, 2 futsal courts and 10 badminton courts. 
-            This is the second indoor Sports Complex after USM had a Badminton Sports Complex built in the 80s.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
 
  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
-  crossorigin="anonymous">
-  </script>
-
-</body>
-</html>
+  
 
 
 
