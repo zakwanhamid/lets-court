@@ -2,8 +2,10 @@
   <section id="login" >
     <div class="container" class="Form my-4 mx-5">
       <div class="row gx-0">
-        <div class="col-lg-4">
-          <img src="<?php echo base_url(); ?>/assets/courts.jpg" class="img-fluid shadow" alt="loginImg">
+        <div class="col-lg-6">
+          <div class="col-lg-9 float-end">
+            <img src="<?php echo base_url(); ?>/assets/courts.jpg" class="img-fluid shadow" alt="loginImg">
+          </div>
         </div>
         <div class="col-lg-6 px-5">
           <h1 class="font-weight-bold py-3">Welcome Back!</h1>
@@ -29,7 +31,7 @@
             </div>
 
             <a href="#">Forgot password ?</a>
-            <p>Don't have an account <a href="#">Register Here</a></p>
+            <p>Don't have an account <a href="<?php echo base_url();?>/Register/index">Register Here</a></p>
 
           </form>
 

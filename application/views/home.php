@@ -21,16 +21,19 @@
   <!-- About Us -->
   <section id="aboutUs">
     <div class="container-lg p-5">
-      <div class="row my-5 align-items-center text-center">
-        <div class="card text-center shadow col-lg-10 align-items-center justify-content-center">
-          <h2>About Us</h2>
-          <img src="<?php echo base_url(); ?>/assets/azmanHashim.jpg" class="card-img-top" alt="volleyball">
-          <p class="lead text-muted">Tan Sri Azman Hashim, the founder and chairman of Ambank Group, 
-            donated RM10 million for the construction of the Azman Hashim Sports Arena which is located on the USM main campus here. 
-            The multi-purpose complex known as Azman Hashim Sports Arena has an area of 5,098 square meters. 
-            Various facilities in the arena will be built, namely 1 volleyball court, 2 futsal courts and 10 badminton courts. 
-            This is the second indoor Sports Complex after USM had a Badminton Sports Complex built in the 80s.</p>
-        </div>
+      <div class="row shadow" style="background-color: rgba(255, 255, 255, 0.5)">
+          <div class="col-md-6 text-center d-md-block">
+            <h2 class="p-3 text-center">About Us</h2>
+            <img class="img-fluid" src="<?php echo base_url(); ?>/assets/azmanHashim.jpg"  alt="Azman Hashim">
+          </div>
+          <div>
+            <p class="col-lg-6 pt-5 px-5 text-justify ">Tan Sri Azman Hashim, the founder and chairman of Ambank Group, 
+              donated RM10 million for the construction of the Azman Hashim Sports Arena which is located on the USM main campus here. 
+              The multi-purpose complex known as Azman Hashim Sports Arena has an area of 5,098 square meters. 
+              Various facilities in the arena will be built, namely 1 volleyball court, 2 futsal courts and 10 badminton courts. 
+              This is the second indoor Sports Complex after USM had a Badminton Sports Complex built in the 80s.
+            </p>
+          </div>
       </div>
     </div>
   </section>

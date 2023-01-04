@@ -98,7 +98,7 @@
             <a class="nav-link" href="<?php echo base_url();?>/Login/index">Log In</a>
           </li>
           <li class="nav-item ms-lg-4">
-            <a class="nav-link" href="register.html">Register</a>   
+            <a class="nav-link" href="<?php echo base_url();?>/Register/index">Register</a>   
           </li>
         </ul>
       </div>
