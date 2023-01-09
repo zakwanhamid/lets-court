@@ -5,7 +5,7 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
           <h1>
-            <div class="display-2 fw-bold">Let's Court</div>
+            <div class="display-2 fw-bold" style="color: white">Let's Court</div>
             <div class="display-5 text-muted">Now Everyone Can Play</div>
           </h1>
           <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos optio culpa, error aperiam tempora excepturi nostrum reiciendis repudiandae cum?</p>

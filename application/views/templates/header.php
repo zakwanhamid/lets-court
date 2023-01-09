@@ -71,9 +71,9 @@
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background:#345c72">
-    <div class="container-xxl">
+    <div class="container-xxl" >
       <a href="<?php echo base_url(); ?>" class="navbar-brand">
-        <img src="<?php echo base_url(); ?>/assets/logo.png" width="210" height="50" alt="logo">
+        <img src="<?php echo base_url(); ?>/assets/logo-white.png" width="210" height="50" alt="logo">
       </a>
       <!-- toggle buttom for mobile nav -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
