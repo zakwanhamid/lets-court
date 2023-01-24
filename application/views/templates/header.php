@@ -19,7 +19,7 @@
     }
 
     #intro{
-      /* background: #345c72;  */
+      background: #345c72;
     }
 
     #courts{
