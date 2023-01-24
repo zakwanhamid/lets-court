@@ -15,7 +15,7 @@
   <style>
     section{
       min-height: 100vh;
-      padding: 150px 0;
+      padding: 80px 0;
     }
 
     #intro{
@@ -38,6 +38,10 @@
 
     #register{
       background: #345c72;
+    }
+
+    #feedback{
+      background-image: url(assets/courts6.jpg);
     }
 
     .row{
